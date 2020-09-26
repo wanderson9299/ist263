@@ -1,0 +1,24 @@
+ul {
+    margin: 1px;
+    padding: 1px;
+
+}
+
+li {
+    font-size: 15px;
+    width: 465px;
+    font-weight: bold;
+    padding: 6px;
+    border: white;
+    border-width: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    
+    
+}
+.odd {
+    background: #f1f1f1;
+}
+
+.even {
+    background: #e1e1e1;
+}
