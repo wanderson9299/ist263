@@ -1,0 +1,23 @@
+body{
+    background-color: #ffef96;
+    margin: 90px;
+}
+img {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    size: 100%;
+}
+.container{
+        float: left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    size: 100%;
+    text-align: center;
+}

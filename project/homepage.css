@@ -1,0 +1,23 @@
+html{
+    border: blue;
+    border-style: solid;
+}
+body{
+    background-color: #ffef96;
+    margin: 175px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 100%;
+}
+.container{
+        float: left;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
