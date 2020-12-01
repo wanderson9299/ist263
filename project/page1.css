@@ -18,3 +18,36 @@ img{
 h1{
     text-align: center;
 }
+.topnav {
+    background-color: #ADD8E6;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 45x;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #fed8b1;
+    color: white;
+  }
+  img {
+    @media only screen and (min-width: 1200x)
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 100%;
+}

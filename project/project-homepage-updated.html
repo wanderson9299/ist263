@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <title>Seaside Marblehead</title>
     <link rel="stylesheet" href="homepage.css">
+    <style>
 
+        .col-100 {
+            width: 100%;
+        }
+
+        @media only screen and (min-device-width: 200x) and (max-device-width: 575px) {
+            .col-100 {
+                width: 100%;
+            }
+        }
+
+        
+        @media only screen and (min-width: 576px) and (max-width: 767px) {
+            .col-100 {
+                width: 100%;
+            }
+
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+            .col-100 {
+                width: 100%;
+            }
+        }
+
+        
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            .col-100 {
+                width: 100%;
+            }
+
+        }
+        
+    </style>
 </head>
 
 <body>
     <main>
-        <img src="images/titlepage.jpeg" alt="Head Page"> <!-- My Image -->
-        <h1>Boaters Guide to Seaside Marblehead</h1>
-        <div class="container">
+        <div class="topnav">
+            <a class="active" href="project-homepage-updated.html">Home</a>
+            <a href="project-page1.html">Fun</a>
+            <a href="project-page2.html">History</a>
+        </div>
+        <div class=".col-100">
+            <img src="images/titlepage.jpeg" alt="Head Page">
+            <h1>Boaters Guide to Seaside Marblehead</h1>
+        </div>
+        </div>
+        <div class=".col-100">
+            <h2>Fun</h2>
             <img src="images/funtitlepage.jpeg" alt="Fun Activities" style="width:100%">
         </div>
-        <div class="container">
+        <div class=".col-100">
+            <h2>History</h2>
             <img src="images/historytitlepage.jpeg" alt="History" style="width:100%">
-        </div>
-        <div class="container">
-            <p><a href="project-page1.html">Link to Fun Activities</a></p>
-            <p><a href="project-page2.html"> Link to History</a></p>
         </div>
     </main>
 </body>
-
+<form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Have Question Planning Your Trip</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Email">
+    </div>
+  </form>
 </html>
-
